@@ -5,7 +5,7 @@ var generalChannel = client.channels.get("670640836916019210")
 
 client.on('ready', () => {
     // List servers the bot is connected to
-    console.log("Servers:")
+    console.log("Servedrs:")
     client.guilds.forEach((guild) => {
         console.log(" - " + guild.name)
 
